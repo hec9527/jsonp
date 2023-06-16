@@ -1,6 +1,7 @@
 # jsonp
 
 ![GitHub](https://img.shields.io/github/license/yinguobing/cnn-facial-landmark)
+![](https://img.shields.io/github/languages/code-size/hec9527/jsonp)
 
 
 A simple JSONP implementation base on typescript build by rollup。
@@ -25,10 +26,6 @@ jsonp(url, option, callback)
   - `params` (`String`) name of the query string parameter to specify the callback
   - `timeout` （`Number`） a time limit in milliseconds for the call (default: 60*1000)
   - `data` （`Object`） Other query strings, note that the key with the same name as callback will be ignored
-
-
-查询字符串中用于设置jsonp的回调函数key
-
 
 ## License
 
