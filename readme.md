@@ -1,8 +1,12 @@
 # jsonp
 
-![GitHub](https://img.shields.io/github/license/yinguobing/cnn-facial-landmark)
-![](https://img.shields.io/github/languages/code-size/hec9527/jsonp)
-
+![GitHub](https://img.shields.io/github/license/hec9527/jsonp)
+![Size](https://img.shields.io/github/languages/code-size/hec9527/jsonp)
+![Version](https://img.shields.io/github/package-json/v/hec9527/jsonp?color=#78f)
+![Files](https://img.shields.io/github/directory-file-count/hec9527/jsonp/dist?style=plastic)
+![Bundle](https://img.shields.io/bundlephobia/minzip/@hec9527/jsonp?color=%23f67&label=bundle%20size&style=plastic)
+![Download](https://img.shields.io/npm/dt/@hec9527/jsonp)
+![Issues](https://img.shields.io/github/issues/hec9527/jsonp)
 
 A simple JSONP implementation base on typescript build by rollup。
 
