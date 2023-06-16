@@ -22,9 +22,31 @@ install by npm
 npm install jsonp --save
 ```
 
+## 🎉 feature 
+
+- `light`
+
+  dist file just less than 1kb after gzip
+
+- `type safe`
+
+  write by typescript and provide all type declare
+  
+- `sourceMap`
+
+  sourcemap inside, you can debug your fetch step by step
+  
+- `openSource`
+
+  get the source code for free and build your own dist
+  
+
+
 ## API
 
+```js
 jsonp(url, option, callback)
+```
 
 - `url` (`String`) fetch url
 - `option` (`Object`) optional

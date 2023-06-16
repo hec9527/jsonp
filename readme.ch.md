@@ -14,7 +14,7 @@
 一个用Rollup打包并且使用typescript编写的jsonp实现
 
 
-## 安装
+## 🚀 安装 
 
 使用npm安装
 
@@ -22,9 +22,29 @@
 npm install jsonp --save
 ```
 
-## API
+## 🎉 feature 
 
+- `轻量`
+
+  gzip压缩后构建产物不到1kb
+  
+- `类型安全`
+
+   由typescript编写，并且提供内置类型声明
+   
+- `资源映射`
+
+   你可以使用source maps来逐步调试
+   
+- `开源`
+
+  免费获得所有源码并且构建自己的产物
+
+## 📚 API
+
+```js
 jsonp(url, option, callback)
+```
 
 - `url` (`String`) 请求的数据地址
 - `option` (`Object`) 选项，可选的
@@ -35,6 +55,6 @@ jsonp(url, option, callback)
   - `data` （`Object`） 其他查询字符串，值得注意的是，如果包含和回调函数key相同的key会被忽略
 - `callback` （`Function`）请求的回调函数，第一个参数是错误信息，第二个参数是请求返回的数据
 
-## 需求
+## 📃 许可证
 
 MIT
